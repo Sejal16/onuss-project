@@ -1,0 +1,159 @@
+
+body{
+    font-family: "Montserrat";
+}
+h1{
+    font-family:"Anton" ;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    letter-spacing: 3px;
+}
+h2{
+    font-family: "Anton";
+    font-size: 2rem;
+    line-height: 1.5;
+    letter-spacing: 2px;
+
+}
+em{
+    font-family: cursive;
+    font-size: 1rem;
+}
+
+
+/* title */
+.title-image{
+  width: 60%;
+    border-radius: 7%;
+    transform: rotate(20deg);
+    position: relative;
+    left: 30%;
+    margin: 5px;
+}
+
+#title{
+    background-image: url(https://a.rgbimg.com/users/c/ca/carloszk/300/ov6dvyY.jpg);
+}
+.container-fluid{
+    padding: 4% 15% ;
+}
+
+/* brand name */
+
+.navbar{
+    padding:  0.5% 2%;
+    font-size: larger;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+    
+}
+.nav-link{
+    font-size: 1.2rem;
+    
+}
+
+ /* features */
+    #features{
+        padding: 4% 12%;
+      
+    
+
+    }
+    .icon{
+        width: 40%;
+        margin-bottom: 1rem;
+        /* color: #dde1e9;; */
+        /* text-align: center; */
+
+    }
+    .icon:hover{
+        color: #dde1e9;
+    }
+
+    .feature-box {
+        text-align: center;
+        padding: 5%;
+    }
+
+    /* Testimonial */
+ #Testimonials{
+     text-align: center;
+    
+     background-color: rgb(7, 6, 6);
+     color: white;
+
+ }
+
+ .testimonial-image{
+     width: 50%;
+ border-radius: 1%;
+     margin: 30px;
+    
+     
+ }
+.carousel-item
+{
+    padding: 4% 15%;
+}
+
+
+/* pricing Section */
+    #pricing{
+
+        padding: 50px 100px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .card{
+        margin: 10%;
+    }
+
+/* footer */
+
+    #footer{
+        text-align: center;
+        padding: 3% 15%;
+        background-color:rgb(10, 9, 9);
+        color: blanchedalmond;
+    }
+    .footer-icon{
+        color:#5fa9d6;;
+        padding: 5%;
+    }
+   
+    .footer-span{
+        padding: 4px  ;
+    }
+    .footer-span{
+        margin-bottom: 4px;
+    }
+    
+
+
+/* media query */
+
+@media (max-width:992px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    .h2-special{
+        font-size: 20px;
+    }
+    .testimonial-image{
+        width: 90%;
+    }
+    #title{
+        text-align: center;
+        }
+        .footer-icon{
+            width: 20%;
+        }
+}
